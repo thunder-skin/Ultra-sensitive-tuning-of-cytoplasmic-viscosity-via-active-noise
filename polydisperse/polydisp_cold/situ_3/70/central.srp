@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sbatch ./0.srp
+sbatch ./1.srp
+sbatch ./2.srp
+sbatch ./3.srp
+sbatch ./4.srp
+sbatch ./5.srp
+sbatch ./6.srp
+sbatch ./7.srp
