@@ -1,0 +1,2 @@
+active_force_times=-3.25
+force_beta=0.001
