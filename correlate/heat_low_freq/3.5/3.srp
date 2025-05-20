@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -o %j.out
+#SBATCH -e %j.err
+#SBATCH -J jobname
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH -A linjie_g1
+#SBATCH --qos=linjiecnl
+#SBATCH --partition=cn-long
+
+source /appsnew/source/gcc-12.1.0.sh
+g++ -O3 ./1003.cpp -o ./1003.exe
+./1003.exe
